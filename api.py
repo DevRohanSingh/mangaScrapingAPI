@@ -1,4 +1,4 @@
-from flask import Flask, redirect, jsonify, render_template
+from flask import Flask, jsonify, render_template
 from flask_bootstrap import Bootstrap4
 from bs4 import BeautifulSoup
 import requests
@@ -92,48 +92,3 @@ def get_comic_chapters(id):
 
 if __name__ == '__main__':
     app.run()
-
-
-# for itm in all_comics:
-#     print(itm.title)
-#     print(itm.id)
-#     print(itm.link)
-#     print(itm.thumb)
-#     print(itm.about)
-#     print(itm.author)
-
-
-# chapter link -> https://chapmanganato.to/id
-# ------------------------------------------------------------------
-# 1. '/today'  -> returns today's comics (latest update)
-# [
-#  {
-#   'title': '...',
-#   'thumb': 'https://...',
-#   'id': '790713'
-#  }
-# ]
-
-# -------------------------
-# 2. '/id'  -> Returns a single comic's information by id
-# {
-#     'title': '...',
-#     'about': '...',
-#     'genre': '...',
-#     'age': '...',
-#     'thumb': '...'
-# }
-
-# ---------------------------
-# 3. '/id/episodes'  -> returns the latest episodes for a comic by id
-# [
-#   {
-#     'thumb': '...'
-#     'id': '790713'
-#     'title': '...',
-#     'rating': '9.98',
-#     'date': '...',
-#   }
-#   {...},
-#   {...},
-# ]
