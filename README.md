@@ -14,9 +14,6 @@
         "thumb": "https://avt.mkklcdnv6temp.com/49/f/17-1583497041.jpg",
         "title": "Boku no Kokoro no Yabai yatsu"
     },
-    .
-    .
-    .
 ]
 ```
 
@@ -35,9 +32,6 @@
     "thumb": "https://avt.mkklcdnv6temp.com/30/a/17-1583496340.jpg",
     "title": "Solo Leveling"
   },
-  .
-  .
-  .
 ]
 ```
 
@@ -80,8 +74,5 @@
     "title": "Chapter 469.5",
     "view": "60.3K"
   },
-  .
-  .
-  .
 ]
 ```
